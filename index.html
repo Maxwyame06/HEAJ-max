@@ -7,6 +7,9 @@
     <title>ceci est une super intégration</title>
 
     <style>
+        body{
+            background-color: white;
+        }
         h1{
             color: red;
             text-align: center;
@@ -15,13 +18,32 @@
         .content{
             align-items: center;
         }
+        .gallery{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+        }
+        .gallery li img{
+            width: 201px;
+            object-fit: cover;
+            height: 200px;
+            flex-wrap: wrap;
+        }
     </style>
 
 </head>
 <body>
     <h1>ceci est une super intégration </h1>
     <div class="content">
-        <img src="https://www.jaitoutcompris.com/img/encyclo/jaguar-yannick-turbe.jpg">
+        <ul class="gallery">
+            <li><img src="https://prmeng.rosselcdn.net/sites/default/files/dpistyles_v2/ena_16_9_extra_big/2021/11/10/node_249050/38750540/public/2021/11/10/B9728948733Z.1_20211110135946_000%2BGKOJAD39R.1-0.jpg?itok=MQdYi5zK1636550990"></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Gustav_K%C3%B6hler_-_Charakterkopf_eines_J%C3%A4gers.jpg/220px-Gustav_K%C3%B6hler_-_Charakterkopf_eines_J%C3%A4gers.jpg"></li>
+            <li><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/Gustav_K%C3%B6hler_-_Portr%C3%A4t.jpg"></li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDEeD8D4KyvcfVMrX2_rLHGCVsBt970NOq6A&usqp=CAU"></li>
+            <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQ2i8tVKyKSyH5AWMb8hdp7qA3g2sz3zadQ&usqp=CAU"></li>
+            <li><img src="https://images.ladepeche.fr/api/v1/images/view/5c35d74a8fe56f2d7f5c8d8c/large/image.jpg"></li>
+        </ul>
     </div>
 </body>
 </html>
